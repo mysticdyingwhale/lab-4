@@ -5,6 +5,9 @@ Your team and TA can help you during the lab if you had any trouble,
 so don't worry if you don't get through Task 1 before lab. There will also
 be some time to do this as your TA helps everyone get into teams.**
 
+# Brief Intro about API
+You can think of an API like the method you just wrote: it exposes an interface that lets others pass in some input and receive a result. In this lab activity, the API is a function—or more precisely, a product—running on a remote server. Its provider gives us documentation that explains how to call it and what response to expect, so we don’t have to build those features ourselves. 
+
 ## Task 0: Fork and clone this repo
 
 1. As with the previous lab activities, start by making a fork of this repo and cloning it.
@@ -14,7 +17,7 @@ be some time to do this as your TA helps everyone get into teams.**
 In order to use the Grade API, you will need to sign up a new username, and obtain an API `token`.
 To sign up a username, we are going to make a simple request to the Grade API.
 
-1. Go to https://hoppscotch.io. This is a tool like Postman, which can be used to quickly interact with APIs.
+1. Go to https://hoppscotch.io. This is a tool like Postman, which can be used to quickly interact with APIs. (Of course, you can use Postman, we just want to show your two available tools you can use. The API documentation is on Postman)
 2. Beside the word GET, replace `https://echo.hoppscotch.io/` with `http://vm003.teach.cs.toronto.edu:20112/signUp`. NOTE: The DataBase will be reset before Thursday's lab, be aware if you want to try the API in advance!!
 
 Next, we need to specify the username which we want to use. To do this, we add a parameter.
